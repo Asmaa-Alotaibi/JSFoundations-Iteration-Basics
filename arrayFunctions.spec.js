@@ -40,7 +40,7 @@ describe("getDuplicateCount(x, numbers)", () => {
 
 describe("makeThemDoctors(students)", () => {
   test("return the same array with all elements appended 'Dr. '", () => {
-    expect(youGottaCalmDown(["x", "y", "z"])).toEqual([
+    expect(makeThemDoctors(["x", "y", "z"])).toEqual([
       "Dr. x",
       "Dr. y",
       "Dr. z",
